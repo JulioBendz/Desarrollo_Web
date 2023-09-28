@@ -168,7 +168,7 @@ header a:hover{
             text-align: center;
             padding: 250px 12px;
         }
-
+        
         #caracteristicas li{
             margin: 20px 0px;
             font-weight: bold;
@@ -214,6 +214,9 @@ header a:hover{
         }
 
         @media (min-width: 900px){
+
+
+
             header{
                 position: fixed;
                 width: 100%;
@@ -319,10 +322,6 @@ header a:hover{
                 ,url("media/ecomerce.png");            
             }
 
-            #caracteristicas .container{
-                text-align: initial;
-            }
-
             #caracteristicas ul{
                 margin-left: 5px;
             }
@@ -353,15 +352,12 @@ header a:hover{
                 background-repeat: no-repeat;
                 background-size: 400px 380px;
                 background-position: calc(100vw - 460px) 210px;
-          
-
-            }
-
-        }
-
-        @media (min-width: 1060px){
-            #caracteristicas{
                 background-position-x: calc(100vw - 500px);
                 margin-left: 20px;
             }
+
+            #caracteristicas .container{
+                text-align: initial;
+            }
+
         }
