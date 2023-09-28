@@ -319,15 +319,6 @@ header a:hover{
                 ,url("media/ecomerce.png");            
             }
 
-            #caracteristicas{
-                background-image: url("media/img1.jpg");
-                background-repeat: no-repeat;
-                background-size: 400px 300px;
-                background-position: calc(100vw - 460px) 200px;
-          
-
-            }
-
             #caracteristicas .container{
                 text-align: initial;
             }
@@ -355,9 +346,22 @@ header a:hover{
 
         }
 
+        @media (min-width: 1280px){
+
+            #caracteristicas{
+                background-image: url("media/img1.jpg");
+                background-repeat: no-repeat;
+                background-size: 400px 380px;
+                background-position: calc(100vw - 460px) 210px;
+          
+
+            }
+
+        }
+
         @media (min-width: 1060px){
             #caracteristicas{
-                background-position-x: calc(100vw - 700px);
-                margin-left: 100px;
+                background-position-x: calc(100vw - 500px);
+                margin-left: 20px;
             }
         }
