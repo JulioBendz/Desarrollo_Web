@@ -91,7 +91,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
+    
 }
 
 #hero h1{
@@ -322,9 +322,6 @@ header a:hover{
                 ,url("media/ecomerce.png");            
             }
 
-            #caracteristicas ul{
-                margin-left: 5px;
-            }
 
             #final h2 {
                 font-size: 4em;
@@ -347,37 +344,32 @@ header a:hover{
 
         @media (min-width: 1280px){
 
-            #caracteristicas{
-                background-image: url("media/img1.jpg");
-                background-repeat: no-repeat;
-                background-size: 400px 380px;
-                background-position: calc(100vw - 460px) 210px;
-                background-position-x: calc(100vw - 500px);
-                margin-left: 20px;
-            }
-
-            #caracteristicas .container{
-                text-align: initial;
-            
-            }
-
             #caracteristicas .container .IMG{
               
                 background-image: url("media/img3.jpg");
                 background-repeat: no-repeat;
                 background-size: 380px 600px;
-                background-position: calc(100vw - 460px) 10px;
+                background-position: calc(100vw - 460px) 50px;
                 background-position-x: calc(100vw - 500px);
                 margin-left: 20px;
             }
+
             #caracteristicas .container .x{
               
                 max-width: 780px;
+                
             }
-
-
-            
+          
         }
+
+        @media (max-width: 1280px){
+            #caracteristicas .container .x{
+              
+                margin: 0 auto;
+                max-width: 900px
+            }
+        }
+
         .multi-select {
             position: absolute;
             display: inline-block;
