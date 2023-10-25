@@ -163,16 +163,6 @@ header a:hover{
             )
             ,url("media/ecomerce2.png");            
         }
-
-        #caracteristicas .container{
-            text-align: center;
-            padding: 250px 12px;
-        }
-        
-        #caracteristicas li{
-            margin: 20px 0px;
-            font-weight: bold;
-        }
         
         #final{
             display: flex;
@@ -357,17 +347,22 @@ header a:hover{
             #caracteristicas .container .x{
               
                 max-width: 780px;
-                
+                text-align: left;
             }
           
         }
 
-        @media (max-width: 1280px){
+        @media (max-width: 1279px){
             #caracteristicas .container .x{
-              
+                
                 margin: 0 auto;
                 max-width: 900px
             }
+        }
+
+        #caracteristicas .container{
+            text-align: center;
+            padding: 220px 40px;
         }
 
         .multi-select {
